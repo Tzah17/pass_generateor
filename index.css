@@ -141,5 +141,13 @@ color: white;
 position: absolute;
 padding: 200px;
 font-size: 0.8em;
+}
 
+hr{
+position: absolute;
+width: 446px;
+height: 0px;
+left: 52px;
+top: 361px;
+border: 1px solid #2F3E53;
 }
