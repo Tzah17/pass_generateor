@@ -36,8 +36,6 @@ button.addEventListener("click", (e) => {
 
         let pass1 = getRandom(characters, lengthEl)
         let pass2 = getRandom(characters, lengthEl)
-        console.log(pass1)
-        console.log(pass2)
         pass1El.textContent = pass1
         pass2El.textContent = pass2
     }
