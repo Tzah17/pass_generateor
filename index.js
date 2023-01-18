@@ -15,7 +15,6 @@ button.addEventListener("click", (e) => {
     //first I'll get the desired lenght for the pass
     let lengthEl = document.querySelector("#length-el").value; //Here im taking the input of the 
     lengthEl = lengthEl.replace(/\D/g, "");
-    Number(lengthEl)
     //Checking that the length is not less then 10
     if (lengthEl < 7 || lengthEl>20) {
         message = "Password must have 7-20 charecters"
