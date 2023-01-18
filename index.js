@@ -17,8 +17,8 @@ button.addEventListener("click", (e) => {
     lengthEl = lengthEl.replace(/\D/g, "");
     Number(lengthEl)
     //Checking that the length is not less then 10
-    if (lengthEl < 10 || lengthEl>20) {
-        message = "Password must have 10-20 charecters"
+    if (lengthEl < 7 || lengthEl>20) {
+        message = "Password must have 7-20 charecters"
         alert(message)
     } else {
         //Next I need to get the checkboxes
